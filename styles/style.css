@@ -148,12 +148,23 @@
 
     .development-section-contnet{
         width: 80%;
-        height: 250px;
+        height: auto;
         /* border: 1px solid red; */
         border-radius: 16px;
         background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     }
-
+    .development-section-contnet-2{
+        width: 80%;
+        height: auto;
+        /* border: 1px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+       
+        
+    }
+    .feature-title-descrip-2{
+       
+    }
     .development-section-contnet-feature{
         display: flex;
         flex-direction: row;
@@ -169,6 +180,7 @@
         padding: 40px 20px  ;
         
     }
+
     .development-section-contnet-feature h3{
         color: rgba(13, 19, 33, 0.7);
         font-family: Azeret Mono;
