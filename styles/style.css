@@ -448,7 +448,7 @@
 
     .next-target-section{
         width: 75%;
-        height: 1200px;
+        height: 900px;
         /* border: 1px solid red; */
         margin:0 auto ;
         margin-top: 70px;
@@ -555,22 +555,89 @@
 
 
 
+.banner-section-footer{
+        width: 75%;
+        height: 300px;
+        /* border: 1px solid red; */
+        margin:0 auto ;
 
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.6);
+        background-blend-mode: overlay;
+        background-image: url("../assets/handshake.jpg");
+     
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    height: 300px;
-    background-color: black ;
-    margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        color: white;
+        text-align: center;
 }
+
+.banner-section-footer-title-descrictp h3{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+}
+.banner-section-footer-title-descrictp p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+
+    opacity: 0.7;
+
+    }
+
+    .banner-section-footer-secrch{
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        /* border: 2px solid white; */
+        /* padding: 20px; */
+    }
+   
+
+    input{
+        width: 400px;
+        height: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+        padding: 19px 20px 19px 20px;
+        background: rgb(255, 255, 255);
+    }
+    .banner-section-footer-secrch button{
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        font-weight: 600px;
+        font-size: 16px;
+        background: rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
