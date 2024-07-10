@@ -628,8 +628,32 @@
         font-size: 16px;
         background: rgb(255, 255, 255);
     }
+    footer{
+        background: rgba(13, 19, 33, 0.02);
+    }
+    .footer-nav{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+    .footer-nav-title h5{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .footer-nav-icon img{
+        margin-right: 10px;
 
-
+    }
 
 
 
